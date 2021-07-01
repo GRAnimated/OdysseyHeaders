@@ -19,4 +19,11 @@ namespace al
     float powerOut(float, float);
 
     float lerpValue(float, float, float);
+	
+	// RANDOM
+	float getRandom(void);
+	float getRandom(float);
+	float getRandom(float, float);
+	int getRandom(int);
+	int getRandom(int,int);
 };
